@@ -1,4 +1,6 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
@@ -6,4 +8,89 @@
 
 html{
     font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #28223F;
+}
+
+section{
+    width: 32rem;
+    /* text-align: center; */
+    color: #B3B8CD;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.personal{
+    background-color: #231E39;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+.personal img{
+    width: 12rem;
+    height: 12rem;
+    border: 0.2rem solid #03BFCB;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.personal .pro{
+    background-color: #FEBB0B;
+    color: #231E39;
+    padding: 0.1rem 0.7rem;
+    border: 1px solid #FEBB0B;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+
+}
+
+.personal .name{
+    text-align: center;
+    padding-top: 1.3rem;
+    
+}
+
+.personal .country{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+}
+
+.personal .designation{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+
+.personal .message{
+    background-color: #03BFCB;
+    border: 1px solid #03BFCB;
+    border-radius: 0.3rem;
+    padding: 0.8rem 1.8rem;
+    
+}
+
+.personal .following{
+    background-color: #231E39;
+    border: 1px solid #03BFCB;
+    border-radius: 0.5rem;;
+    color: #03BFCB;
+    padding: 0.8rem 1.8rem;
+}
+
+
+.skills{
+    background-color: #1F1A36;
+}
+
+.skills li{
+    list-style: none;
 }
