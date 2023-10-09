@@ -124,6 +124,9 @@ section{
 .social .fa-github:hover{
   color: #000000;
 }
+.social .fa-youtube:hover{
+    color: #c4302b;
+  }
 
 .skills{
     background-color: #1F1A36;
