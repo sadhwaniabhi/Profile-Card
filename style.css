@@ -69,21 +69,19 @@ section{
     margin-top: 2rem;
 }
 
-
-.personal .message{
-    background-color: #03BFCB;
+.personal button{
     border: 1px solid #03BFCB;
     border-radius: 0.3rem;
     padding: 0.8rem 1.8rem;
-    
 }
 
-.personal .following{
-    background-color: #231E39;
-    border: 1px solid #03BFCB;
-    border-radius: 0.5rem;;
+.personal button.message{
+    background-color: red; 
+}
+
+.personal button.following{
+    background-color: transparent;
     color: #03BFCB;
-    padding: 0.8rem 1.8rem;
 }
 
 
