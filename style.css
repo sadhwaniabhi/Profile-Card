@@ -75,13 +75,20 @@ section{
     padding: 0.8rem 1.8rem;
 }
 
+.personal .buttons{
+    text-align: center;
+    margin: 1rem;
+}
+
 .personal button.message{
-    background-color: red; 
+    background-color: #03BFCB; 
+    margin-right: 0.5rem;
 }
 
 .personal button.following{
     background-color: transparent;
     color: #03BFCB;
+    margin: 0.5rem;
 }
 
 
