@@ -49,7 +49,6 @@ section{
     background-color: #FEBB0B;
     color: #231E39;
     padding: 0.1rem 0.7rem;
-    border: 1px solid #FEBB0B;
     border-radius: 0.3rem;
     font-size: 1.4rem;
     position: absolute;
@@ -60,7 +59,7 @@ section{
 
 .personal .name{
     text-align: center;
-    padding-top: 1.3rem;
+    padding-top: 1.5rem;
     
 }
 
@@ -68,13 +67,12 @@ section{
     text-align: center;
     font-size: 1.3rem;
     margin-top: 0.2rem;
-    margin-bottom: 1.2rem;
 }
 
 .personal .designation{
     text-align: center;
     font-size: 1.6rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .personal button{
@@ -99,7 +97,7 @@ section{
 
 .personal button.following{
     background-color: transparent;
-    color: #03BFCB;
+    color: #02899C;
     margin: 0.5rem;
 }
 
